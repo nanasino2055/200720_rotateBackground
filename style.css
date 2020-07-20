@@ -25,9 +25,13 @@ body
 
 .above
 {
-  height: 25%;
-  background-color: #7F4123;
-    transform: rotate(15deg);
+  height: 160px;
+  border-top: 80px solid #7F4123;
+  border-right: 960px solid #7F4123;
+  border-bottom: 80px solid transparent;
+  border-left: 960px solid transparent;
+
+
 }
 .blank
 {
@@ -37,7 +41,6 @@ body
 .below
 {
   height: 25%;
-  background-color: red;
-    transform: rotate(15deg);
-    width: 150%;
+  border: 1px solid red;
+
 }
